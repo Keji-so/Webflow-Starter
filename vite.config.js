@@ -19,10 +19,6 @@ export default defineConfig({
         assetFileNames: '[name].[ext]',
       },
     },
-    watch: {
-      include: ['src/**'], // Watch all files in the 'src' directory
-      exclude: 'node_modules/**', // Exclude the 'node_modules' directory
-    },
     // Enable minification for production builds
     minify: true,
   },
