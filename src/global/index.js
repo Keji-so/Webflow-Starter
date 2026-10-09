@@ -2,6 +2,7 @@
 // This file contains code that runs on all pages
 
 console.log('Global script loaded')
+alert('test')
 
 // Example of a simple utility function
 export const domReady = (callback) => {
